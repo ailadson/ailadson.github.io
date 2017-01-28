@@ -2,6 +2,21 @@
 
 let projects = [
   {
+    name : 'About Me',
+    thumbURL : '__black',
+    imgURL : '',
+    githubLink : '',
+    liveLink : '',
+    thumbBlurb : '',
+    blurb : `
+<div class="blurb">
+  <p>My name is Anthony. I really enjoy making art, writing computer programs, designing systems, teaching, and musing about the nature of consciousness.</p>
+  <p>Currently, my day job is Product Engineer for <a target="_blank" href"http://appacademy.io">App Academy</a>. I have two main responsibilities: give lectures on a wide variety of topics (algorithms, networks, languages, tools, etc), and lead the development App Academy products outside of the main course.</p>
+  <p>I went to art school (<a target="_blank" href="http://saic.edu">SAIC</a>) initially to become a working artist. While in school, I found a book called <a href="https://www.cs.cmu.edu/~dst/LispBook/book.pdf" target="_blank">A Gentle Introduction To Symbolic Computation</a> and fell in love with programming and, more fundamentally, computer science.</p>
+  <p>I consider myself an artist. Computer science and programming exercise my artistic instinct for creative problem solving in ways that no other medium have ever come close.</p>
+</div>
+    `,
+  },{
     name : 'Notes',
     thumbURL : 'notes_thumb.png',
     imgURL : '',
@@ -191,15 +206,6 @@ let projects = [
     githubLink : '',
     liveLink : '',
     thumbBlurb : 'Ruby',
-    blurb : ``
-  },
-  {
-    name : '',//'Maze Solver',
-    thumbURL : '',
-    imgURL : '',
-    githubLink : '',
-    liveLink : '',
-    thumbBlurb : 'BFS Shortest Path Algorithm',
     blurb : ``
   },
   {

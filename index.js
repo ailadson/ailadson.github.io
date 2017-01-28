@@ -31,7 +31,11 @@ activeProjects.forEach(p => {
 
   container.className = "container";
   pDiv.className = "thumbnail";
-  pDiv.style.backgroundImage = `url(imgs/${p.thumbURL})`;
+  if (p.thumbURL === "__black") {
+    pDiv.style.backgroundColor = "black";
+  } else {
+    pDiv.style.backgroundImage = `url(imgs/${p.thumbURL})`;
+  }
 
   pDiv.addEventListener('mouseenter', () => {
     nameHeader.classList.add('visible');
